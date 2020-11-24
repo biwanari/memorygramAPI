@@ -31,8 +31,14 @@ class Menu:
                 print("Exception Command not found,  try another command or quit program")
                 print("\n")
 
-minstance = Menu()
-minstance.addOptionAndName("profile","profilehack")
-minstance.addOptionAndName("hashtag","hashtagGeoLocalization")
-minstance.addOptionAndName("quit","quit memorygram api || digit Q to exit")
-minstance.generateMenu()
+
+##all method and defines works!
+#minstance = Menu()
+
+#minstance.addOptionAndName("profile","profilehack")
+
+#minstance.addOptionAndName("hashtag","hashtagGeoLocalization")
+
+#minstance.addOptionAndName("quit","quit memorygram api || digit Q to exit")
+
+#minstance.generateMenu()

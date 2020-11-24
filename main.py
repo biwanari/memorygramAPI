@@ -22,7 +22,14 @@ if __name__ == "__main__":
         print('Benvenuto su instagral instaloader')
         print('Scegli uno dei seguenti sottomenu')
         print(r"""
-                  
+                  1) post
+                  2) hashtag
+                  3) geolocalization profile
+                  4) handle profile tools
+                  5) log into database
+                  6)import preferences
+                  7) exit
+                  """)
         command = choice()
 
         #all subroutines
