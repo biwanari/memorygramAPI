@@ -22,7 +22,7 @@ class Target:
         
     def addOption(self,profile, nextOption):
         """
-        Input add an other option to target profile key in dict
+        Input: add option to target profile key in dict
         _dataProfileDict
         First select profile memorize as key, and digit nextOption as one option per time
         """
@@ -41,3 +41,4 @@ class Target:
         """
         Create a csv file with profile target and relative options.
         """
+        pass
