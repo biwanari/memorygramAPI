@@ -28,6 +28,9 @@ class Target:
         """
         if profile in d.keys():
             _dataProfileDict[profile].append(nextOption)
+
+    def getProfileDict(self):
+        return _dataProfileDict
         
     def printDataDict(self):
         """
@@ -42,3 +45,9 @@ class Target:
         Create a csv file with profile target and relative options.
         """
         pass
+
+    def getProfileName(self):
+        return self.profileName
+
+    def getId(self):
+        return self.ide

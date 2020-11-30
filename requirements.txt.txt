@@ -1,0 +1,4 @@
+instaloader
+requests
+pandas
+beautifulsoup4
